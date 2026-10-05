@@ -1,0 +1,52 @@
+{
+  "seed": 42,
+  "events": 3046,
+  "malicious_events": 166,
+  "accessguard": {
+    "alerts": 148,
+    "true_alerts": 145,
+    "false_alerts": 3,
+    "missed": 21,
+    "precision": 0.98,
+    "recall": 0.873,
+    "false_positive_rate": 0.001
+  },
+  "baseline": {
+    "alerts": 668,
+    "true_alerts": 87,
+    "false_alerts": 581,
+    "missed": 79,
+    "precision": 0.13,
+    "recall": 0.524,
+    "false_positive_rate": 0.2017
+  },
+  "incident_recall_accessguard": 0.815,
+  "incident_recall_baseline": 0.148,
+  "incident_recall_by_scenario": {
+    "bulk_theft": 1.0,
+    "credential_compromise": 1.0,
+    "family_snooping": 1.0,
+    "low_slow_in_ward": 0.0,
+    "role_abuse": 1.0,
+    "vip_snooping": 1.0
+  },
+  "event_recall_by_scenario": {
+    "bulk_theft": 0.933,
+    "credential_compromise": 0.792,
+    "family_snooping": 1.0,
+    "low_slow_in_ward": 0.0,
+    "role_abuse": 1.0,
+    "vip_snooping": 1.0
+  },
+  "review_workload": {
+    "accessguard": {
+      "cases": 51,
+      "case_precision": 0.941
+    },
+    "baseline": {
+      "cases": 379,
+      "case_precision": 0.021
+    }
+  },
+  "false_alert_reduction_pct": 99.5
+}
