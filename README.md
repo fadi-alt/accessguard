@@ -2,6 +2,8 @@
 **Care-relationship-aware insider-snooping detection for hospital records, with human-in-the-loop review.**
 **Live demo:** https://accessguard-astra.streamlit.app/
 
+  **Version for judging:** release `v1.0-submission`
+
 | | |
 |---|---|
 | **Team** | _Fadi Hussam, Arjul, Abhishek YM, Meenakshi_ |
