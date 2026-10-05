@@ -1,5 +1,6 @@
 # 🛡️ AccessGuard
 **Care-relationship-aware insider-snooping detection for hospital records, with human-in-the-loop review.**
+**Live demo:** https://accessguard-astra.streamlit.app/
 
 | | |
 |---|---|
@@ -7,7 +8,7 @@
 | **Track** | 4 - Identity + Human Security (also touches 5 - Data, Privacy + Trust) |
 | **Challenge number & title** | _<fill in from the official list>_ |
 | **License** | MIT |
-| **GitHub collaborator** | _<add the organiser's account and confirm here>_ |
+| **GitHub collaborator** | _https://github.com/kmctcoecybersecurity-stack_ |
 
 ## 1. Healthcare problem
 Hospital staff can open thousands of patient records. Curiosity snooping (relatives, VIPs), data theft and stolen
